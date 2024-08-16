@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Text:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Albert Text', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #E0E1DD;
+  background-color: #313d50;
+  background-image: linear-gradient(to top right, #191919, #191919);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  font-weight: 500;
+  color: #AFAFAC;
+  text-decoration: none; /* Remove default underline from all links */
+}
+
+.DLink {
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+a:hover {
+  color: #7D7D7B;
+}
+
+header img {
+  width: 4%;
+  height: auto;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.MainHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px;
+}
+
+.HeaderText {
+  font-family: 'Caveat', cursive;
+  color: #E0E1DD;
+  margin-left: 2px;
+  text-decoration: none; 
+}
+
+.Content {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  flex-grow: 1;
+  padding: 0px;
+}
+.com-name {
+  padding-left: 20px;
+
+}
+
+.SideBySide {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+
+
+.main-container {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 10px;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+
+.feed-container {
+  flex-grow: 1;
+  width: 90%;
+}
+
+.feed-box {
+  width: 100%;
+  max-width: 99%; /* Adjust as needed */
+  margin: 0 auto 10px;
+  /* Keep other styles as they are */
+}
+
+
+/* Image Strip */
+
+
+.img-strip {
+  width: 100%; /* or any desired width */
+  height: 150px; /* adjust this value to control the strip height */
+  overflow: hidden; /* hides any part of the image outside the container */
+}
+
+.img-strip img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* this crops the image to fill the container */
+  object-position: center; /* centers the image within the container */
+}
+
+
+/* Introduction */
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.introduction h1 {
+  margin-bottom: 0px; 
+}
+
+.introduction h2 {
+  margin-top: 0px; 
+}
+
+/* Introduction */
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  margin: 0 auto 20px;
+
+
+  background-color: #262626;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0);
+  padding-bottom: 20px;
+}
+
+.login-box h2 {
+  margin-top: 10px;
+}
+
+/* info */
+
+.info-box {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto 20px;
+
+
+  background-color: #262626;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0);
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.info-box h3 {
+  margin-top: 10px;
+}
+
+
+
+
+
+.coms-container {
+  padding: 20px;
+  max-width: 90%;
+  padding-bottom: 0px;
+}

@@ -1,0 +1,188 @@
+{
+  "C1": [
+    {
+      "id": "1",
+      "type": "text",
+      "caption": "Cauculus Introduction",
+      "Username": "test@mail.com",
+      "description": "Hello everyone!! Im Ian your Cauculus Tutor...",
+      "Ptype": "Introduction!",
+      "comments": [
+        {
+          "id": "1",
+          "content": "Hello",
+          "username": "test@mail.com",
+          "timestamp": "7/22/2024, 3:00:34 PM"
+        },
+        {
+          "id": "2",
+          "content": "Hi",
+          "username": "idhcb.ian@gmail.com",
+          "timestamp": "7/22/2024, 3:22:18 PM"
+        },
+        {
+          "id": "3",
+          "content": "Hello Bro!!",
+          "username": "nicolas@mail.com",
+          "timestamp": "7/23/2024, 11:07:07 PM"
+        },
+        {
+          "id": "4",
+          "content": "Oi, Tudo bem?",
+          "username": "charles@mail.com",
+          "timestamp": "7/24/2024, 10:33:13 PM"
+        }
+      ],
+      "clicks": [
+        "idhcb.ian@gmail.com",
+        "nicolas@mail.com",
+        "vero@mail.com",
+        "spyer@mail.com",
+        "charles@mail.com"
+      ],
+      "likes": [
+        "idhcb.ian@gmail.com",
+        "nicolas@mail.com",
+        "vero@mail.com",
+        "spyer@mail.com",
+        "charles@mail.com"
+      ]
+    },
+    {
+      "id": "2",
+      "type": "video",
+      "caption": "Hello Everyone!!",
+      "description": "Im Ian Yor cauculus Tutor!!",
+      "Ptype": "Curiosity!",
+      "Username": "idhcb.ian@gmail.com",
+      "comments": [
+        {
+          "id": "1",
+          "content": "Hello!!",
+          "username": "idhcb.ian@gmail.com",
+          "timestamp": "7/22/2024, 3:10:03 PM"
+        },
+        {
+          "id": "2",
+          "content": "Im Ian!!",
+          "username": "idhcb.ian@gmail.com",
+          "timestamp": "7/23/2024, 12:33:57 PM"
+        },
+        {
+          "id": "3",
+          "content": "Hello Ian!! this is a cool Music!!",
+          "username": "nicolas@mail.com",
+          "timestamp": "7/23/2024, 11:06:57 PM"
+        },
+        {
+          "id": "4",
+          "content": "Hi Guys!!",
+          "username": "test@mail.com",
+          "timestamp": "7/24/2024, 11:42:17 AM"
+        },
+        {
+          "id": "5",
+          "content": "oI",
+          "username": "spyer@mail.com",
+          "timestamp": "7/24/2024, 3:06:16 PM"
+        },
+        {
+          "id": "6",
+          "content": "Oi!!",
+          "username": "gabriel@mail.com",
+          "timestamp": "7/25/2024, 2:00:10 PM"
+        }
+      ],
+      "videoId": "Xv7vQPuH_nE",
+      "clicks": [
+        "idhcb.ian@gmail.com",
+        "nicolas@mail.com",
+        "test@mail.com",
+        "spyer@mail.com",
+        "charles@mail.com",
+        "gabriel@mail.com"
+      ],
+      "likes": [
+        "nicolas@mail.com",
+        "test@mail.com",
+        "spyer@mail.com",
+        "charles@mail.com",
+        "gabriel@mail.com"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "image",
+      "caption": "Bug in the code!!",
+      "description": "There a bug!!",
+      "Ptype": "Introduction!",
+      "Username": "idhcb.ian@gmail.com",
+      "comments": [
+        {
+          "id": "1",
+          "content": "Hi Ian!!",
+          "username": "vero@mail.com",
+          "timestamp": "7/24/2024, 11:39:45 AM"
+        }
+      ],
+      "imagePath": "1721672847222-16058417179311027.jpeg",
+      "clicks": [
+        "idhcb.ian@gmail.com",
+        "vero@mail.com",
+        "test@mail.com",
+        "charles@mail.com"
+      ],
+      "likes": [
+        "vero@mail.com",
+        "test@mail.com",
+        "charles@mail.com"
+      ]
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "caption": "Hello Im Nicolas!!",
+      "description": "Hello everyone!!",
+      "Ptype": "General Talk!",
+      "Username": "nicolas@mail.com",
+      "comments": [
+        {
+          "id": "1",
+          "content": "Hi Nicolas!!",
+          "username": "idhcb.ian@gmail.com",
+          "timestamp": "7/23/2024, 11:06:08 PM"
+        }
+      ],
+      "clicks": [
+        "idhcb.ian@gmail.com",
+        "vero@mail.com",
+        "test@mail.com"
+      ],
+      "likes": [
+        "idhcb.ian@gmail.com",
+        "vero@mail.com"
+      ]
+    }
+  ],
+  "C2": [
+    {
+      "id": "3",
+      "type": "text",
+      "caption": "Hello Guys!!",
+      "description": "Im Ian a dev!!",
+      "Ptype": "Question!",
+      "Username": "idhcb.ian@gmail.com",
+      "comments": [],
+      "clicks": [
+        "vero@mail.com",
+        "test@mail.com",
+        "spyer@mail.com"
+      ],
+      "likes": [
+        "vero@mail.com",
+        "spyer@mail.com"
+      ]
+    }
+  ],
+  "CDev": []
+}

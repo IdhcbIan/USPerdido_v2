@@ -1,0 +1,129 @@
+-----------------------------------------------------------------------------------
+██╗░░░██╗░██████╗██████╗░███████╗██████╗░██████╗░██╗██████╗░░█████╗░
+██║░░░██║██╔════╝██╔══██╗██╔════╝██╔══██╗██╔══██╗██║██╔══██╗██╔══██╗
+██║░░░██║╚█████╗░██████╔╝█████╗░░██████╔╝██║░░██║██║██║░░██║██║░░██║
+██║░░░██║░╚═══██╗██╔═══╝░██╔══╝░░██╔══██╗██║░░██║██║██║░░██║██║░░██║
+╚██████╔╝██████╔╝██║░░░░░███████╗██║░░██║██████╔╝██║██████╔╝╚█████╔╝
+░╚═════╝░╚═════╝░╚═╝░░░░░╚══════╝╚═╝░░╚═╝╚═════╝░╚═╝╚═════╝░░╚════╝░
+
+-----------------------------------------------------------------------------------
+
+     // Created By Ian Bezerra - Jul - 2024 //
+
+
+First All working instance of USPerdido comunity website!!
+-----------------------------------------------------------------------------------
+
+// Directorys //
+.
+├── db
+│   ├── ComCards
+│   │   ├── cards.json
+│   │   ├── Cards.json
+│   │   └── ComImg
+│   │       ├── chopin.jpeg
+│   │       └── newton.jpeg
+│   ├── ComDesc
+│   │   └── Desc.json
+│   ├── ImgLib
+│   │   ├── 1721143963472-hokusai1.jpg
+│   │   └── shell.jpg
+│   ├── Posts
+│   │   └── posts.json
+│   └── Users
+│       ├── com.json
+│       └── users.json
+├── index.html
+├── node_modules
+├── package.json
+├── package-lock.json
+├── README.md
+├── server
+│   ├── package.json
+│   └── server.js
+├── src
+│   ├── AboutPage.jsx
+│   ├── assets
+│   │   ├── banner.png
+│   │   ├── cauc.jpg
+│   │   ├── icons
+│   │   │   └── menu.png
+│   │   ├── logo.png
+│   │   ├── lost.png
+│   │   └── react.svg
+│   ├── Com
+│   │   ├── C1.jsx
+│   │   ├── C2.jsx
+│   │   ├── MakePost.jsx
+│   │   └── UserCom.jsx
+│   ├── Home.jsx
+│   ├── index.css
+│   ├── Legos
+│   │   ├── AuthContext.jsx
+│   │   ├── CardFeed.jsx
+│   │   ├── Card.jsx
+│   │   ├── ComDesc.jsx
+│   │   ├── Feed.jsx
+│   │   ├── Header.jsx
+│   │   ├── ImagePost.jsx
+│   │   ├── InfoBox.jsx
+│   │   ├── Legos.css
+│   │   ├── LoginBox.jsx
+│   │   ├── Post.jsx
+│   │   ├── Profile.jsx
+│   │   ├── SideBar.jsx
+│   │   ├── UserFeed.jsx
+│   │   ├── VideoPlayer.jsx
+│   │   └── VideoPost.jsx
+│   ├── MainFeed.jsx
+│   ├── main.jsx
+│   ├── OurCom.jsx
+│   ├── RegisterPage.jsx
+│   └── Router.jsx
+├── tree.txt
+└── vite.config.js
+
+-----------------------------------------------------------------------------------
+
+
+
+
+     // Login Module //
+     
+
+Used this to login...
+-> npm install jsonwebtoken
+
+
+
+
+
+-----------------------------------------------------------------------------------
+
+     // Versions //
+
+- USPerdido_Node(Codelab Presentation)
+- USPerdido_React(Basic Structure made in react)
+- USPerdido_NR(Functioning Node React WF)
+- USPerdido_WLGN(First try to make logins)
+- USPerdido_LG(Almost all complete, W login)
+- USPerdido_V1(Working version, missing text and little things...)
+
+
+-> // To make //
+
+- Organize Dev Branches
+- Make text
+- Sort communities
+- Delete User
+- Delete Post
+- Make it prettyer
+- Sudo User...
+- Algo
+- AWS / Ship it!!
+
+
+
+
+
+

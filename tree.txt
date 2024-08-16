@@ -1,0 +1,78 @@
+.
+├── db
+│   ├── ComCards
+│   │   ├── cards.json
+│   │   ├── Cards.json
+│   │   └── ComImg
+│   │       ├── chopin.jpeg
+│   │       └── newton.jpeg
+│   ├── ComDesc
+│   │   └── Desc.json
+│   ├── ImgLib
+│   │   ├── 1721143963472-hokusai1.jpg
+│   │   └── shell.jpg
+│   ├── Posts
+│   │   └── posts.json
+│   └── Users
+│       ├── com.json
+│       ├── interactions.json
+│       └── users.json
+├── Documentation.txt
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── server
+│   ├── package.json
+│   └── server.js
+├── src
+│   ├── AboutPage.jsx
+│   ├── assets
+│   │   ├── bannerR.png
+│   │   ├── cauc.jpg
+│   │   ├── fisI_b.webp
+│   │   ├── fisI.webp
+│   │   ├── icons
+│   │   │   └── menu.png
+│   │   ├── ilust.png
+│   │   ├── logo.png
+│   │   ├── lost.png
+│   │   ├── react.svg
+│   │   └── test2.webp
+│   ├── Com
+│   │   ├── C1.jsx
+│   │   ├── C2.jsx
+│   │   ├── CDev.jsx
+│   │   ├── CS.jsx
+│   │   ├── MakePost.jsx
+│   │   └── UserCom.jsx
+│   ├── Home.jsx
+│   ├── index.css
+│   ├── Legos
+│   │   ├── AuthContext.jsx
+│   │   ├── CardFeed.jsx
+│   │   ├── Card.jsx
+│   │   ├── ComDesc.jsx
+│   │   ├── Feed.jsx
+│   │   ├── Header.jsx
+│   │   ├── ImagePost.jsx
+│   │   ├── FullPostView.jsx
+│   │   ├── InfoBox.jsx
+│   │   ├── JoinCard.jsx
+│   │   ├── Legos.css
+│   │   ├── LoginBox.jsx
+│   │   ├── Post.jsx
+│   │   ├── Profile.jsx
+│   │   ├── SideBar.jsx
+│   │   ├── UserFeed.jsx
+│   │   ├── VideoPlayer.jsx
+│   │   └── VideoPost.jsx
+│   ├── MainFeed.jsx
+│   ├── main.jsx
+│   ├── OurCom.jsx
+│   ├── RegisterPage.jsx
+│   └── Router.jsx
+├── tree.txt
+└── vite.config.js
+
+3423 directories, 20778 files

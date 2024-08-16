@@ -1,0 +1,12 @@
+[
+  {
+    "caption": "Card 1",
+    "description": "This is card 1",
+    "imagePath": "newton.jpeg"
+  },
+  {
+    "caption": "Card 2",
+    "description": "This is card 2",
+    "imagePath": "chopin.jpeg"
+  }
+]

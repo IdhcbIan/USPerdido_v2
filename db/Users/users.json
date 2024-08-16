@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Ian",
+    "username": "idhcb.ian@gmail.com",
+    "password": "ian04"
+  },
+  {
+    "name": "Nicolas",
+    "username": "niko@gmail.com",
+    "password": "acordeiagr"
+  },
+  {
+    "name": "Charles",
+    "username": "charles@gmail.com",
+    "password": "chacha"
+  },
+  {
+    "name": "Random",
+    "username": "random@mail.com",
+    "password": "random"
+  },
+  {
+    "name": "test",
+    "username": "test@mail.com",
+    "password": "test"
+  },
+  {
+    "name": "make",
+    "username": "make@gmail.com",
+    "password": "make"
+  },
+  {
+    "name": "hello",
+    "username": "hello@mail.com",
+    "password": "h"
+  },
+  {
+    "name": "Nicolas",
+    "username": "nicolas@mail.com",
+    "password": "nico"
+  },
+  {
+    "name": "Veronica",
+    "username": "vero@mail.com",
+    "password": "vero"
+  },
+  {
+    "name": "Spyer",
+    "username": "spyer@mail.com",
+    "password": "2004"
+  },
+  {
+    "name": "Charles",
+    "username": "charles@mail.com",
+    "password": "test"
+  },
+  {
+    "name": "gabriel",
+    "username": "gabriel@mail.com",
+    "password": "04"
+  }
+]

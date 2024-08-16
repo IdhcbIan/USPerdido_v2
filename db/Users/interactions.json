@@ -1,0 +1,82 @@
+{
+  "user1@example.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "test@mail.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "make@gmail.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "hello@mail.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "nicolas@mail.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "idhcb.ian@gmail.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "vero@mail.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "spyer@mail.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "charles@mail.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "gabriel@mail.com": [
+    {
+      "coms": [
+        "C1",
+        "C2"
+      ]
+    }
+  ]
+}

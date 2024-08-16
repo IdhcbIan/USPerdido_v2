@@ -1,0 +1,12 @@
+[
+  {
+    "caption": "Newton",
+    "description": "He will be your Physics 1 tutor.",
+    "imagePath": "newton.jpeg"
+  },
+  {
+    "caption": "Chopin",
+    "description": "He will be your piano tutor.",
+    "imagePath": "chopin.jpeg"
+  }
+]

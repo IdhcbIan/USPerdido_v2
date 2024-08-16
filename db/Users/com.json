@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "General Discussion"
+  },
+  {
+    "id": "2",
+    "name": "Technology"
+  },
+  {
+    "id": "3",
+    "name": "Science"
+  },
+  {
+    "id": "4",
+    "name": "Arts & Culture"
+  }
+]

@@ -1,0 +1,802 @@
+/* Feed */
+
+.feed-box {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto 20px;
+
+
+  align-items: flex-start;
+  background-color: #191919;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Post */
+.post-box {
+  max-width: 100%;
+  min-height: 200px;
+  background-color: #262626;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-box hr {
+  color: #e0e1dd;
+}
+
+.post-box h2 {
+  color: #e0e1dd;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+}
+
+.post-box p {
+  width: 100%;
+  color: #e0e1dd;
+  line-height: 1.6;
+}
+
+.post-box img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+.post-header {
+  margin-bottom: 10px;
+}
+
+.post-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.post-header-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.community-label,
+.username-label {
+  font-weight: 500;
+  color: #AFAFAC;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.community-label:hover,
+.username-label:hover {
+  color: #7D7D7B;
+  text-decoration: underline;
+}
+
+.username-label {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.9em; /* Slightly smaller font size for the username */
+}
+
+.post-type {
+  color: #7D7D7B;
+  margin-top: 5px;
+}
+
+.post-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+/* SideBar */
+
+.sidebar {
+  position: fixed;
+  top: 12%;
+  left: 0;
+  width: 200px;
+  height: 40%;
+  margin-left: 1%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #E0E1DD;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: red;
+}
+
+
+
+/* ComDesc */
+
+
+.com-box {
+  width: 30%;
+  max-width: 200px; /* Adjust as needed */
+  margin: 0 auto 20px;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: black;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+  height: auto; /* Ensure the height is flexible */
+}
+
+
+.com-box h2 {
+  font-size: 20px;
+  color: #e0e1dd;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.com-box p {
+  font-size: 15px;
+  width: 100%;
+  color: #e0e1dd;
+  line-height: 1.6;
+  word-wrap: break-word; /* Ensure long words will break to fit within the container */
+  overflow-wrap: break-word; /* Modern equivalent of word-wrap */
+}
+
+/* SideBar */
+
+.sidebar {
+  position: fixed;
+  top: 12%;
+  left: 0;
+  width: 200px;
+  height: 40%;
+  margin-left: 1%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #E0E1DD;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: red;
+}
+
+
+
+/* InfoBox */
+
+.info-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto 20px;
+
+
+  background-color: #262626;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0);
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.info-box-image {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transition: transform 0.1s ease-out;
+}
+
+.lost {
+  position: absolute;
+  width: 30px;
+  top: -56%; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Cards */
+
+.SideBySide {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.card {
+  max-width: 800px;
+  min-height: 200px;
+  background-color: #262626;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card hr {
+  color: #e0e1dd;
+
+}
+
+
+.card img {
+    width: 200px;
+}
+
+
+/* Com Label */
+
+.community-label {
+  width: 30%;
+  padding-bottom: 0%;
+  border-radius: 3px;
+  text-decoration: underline;
+}
+
+.community-label a {
+  font-weight: 500;
+  color: #7D7D7B;
+  text-decoration: none;
+}
+
+
+.community-label a:hover {
+  color: #AFAFAC;
+}
+
+
+.MainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.Header-Right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  max-height: 70px;
+}
+
+.Header-Right img {
+  width: 40px;
+  padding-right: 5px;
+
+}
+
+
+.auth-links {
+  display: flex;
+  align-items: center;
+}
+
+
+.profile-link, .login-link, .logout-button {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #AFAFAC;
+  text-decoration: underline;
+}
+
+.profile-container {
+  padding: 20px;
+
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: #AFAFAC;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.logout-button:hover, .profile-link:hover, .login-link:hover {
+  text-decoration: underline;
+  color: #7D7D7B;
+
+}
+
+.profile-container button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: #AFAFAC;
+  text-decoration: underline;
+  margin-right: 10px;
+
+}
+
+.profile-container button:hover {
+  text-decoration: underline;
+  color: #7D7D7B;
+
+}
+
+
+
+/* Make Post */
+
+
+.make-post {
+  min-height: 200px;
+  background-color: #262626;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+.make-post hr{
+  color: #e0e1dd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.make-post select{
+  align-self: flex-end;
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #AFAFAC;
+  height: 40px;
+  white-space: nowrap;
+}
+
+
+.make-post select:hover{
+  align-self: flex-end;
+  background-color: #7D7D7B;
+}
+
+.Left {
+  padding-left: 200px;
+
+}
+
+.make-post input {
+  flex-grow: 1;
+  min-width: 300px;
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #AFAFAC;
+  min-height: 80px;
+  resize: vertical;
+  vertical-align: top;
+  text-align: left;
+}
+
+
+
+.make-post button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: flex-end;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #AFAFAC;
+  height: 40px;
+  white-space: nowrap;
+  min-width: 320px;
+}
+
+
+.make-post button:hover {
+  background-color: #7D7D7B;
+}
+
+/* Jcards */
+
+.Jcard {
+  max-width: 400px;
+  min-height: 200px;
+  background-color: #262626;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* This prevents the image from overflowing the rounded corners */
+}
+
+.Jcard hr {
+  color: #e0e1dd;
+}
+
+.Jcard img {
+  width: calc(100% + 40px); /* 100% of the card width plus the left and right padding */
+  max-width: none; /* Remove the max-width constraint */
+  display: block; /* Removes any extra space below the image */
+}
+
+
+/* Join */
+
+
+.input-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto 0px;
+  padding: 0px 0px;
+
+  background-color: #262626;
+  border-radius: 8px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0);
+}
+
+.input-box .input-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.2s ease all;
+}
+
+.input-box label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ccc;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.input-box input:focus ~ label,
+.input-box input:not(:placeholder-shown) ~ label {
+  top: -20px;
+  left: 0;
+  font-size: 12px;
+  color: #fff;
+}
+
+.input-box input:focus {
+  border-color: #fff;
+  outline: none;
+}
+
+.input-box .error {
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+.input-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a4a4a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.input-box button:hover {
+  background-color: #5a5a5a;
+}
+
+
+/* Join */
+
+
+.join-box {
+  max-width: 400px;
+  background-color: #262626;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.join-box hr {
+  color: #e0e1dd;
+}
+
+.join-box img {
+  width: 100%;
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover;
+  object-position: center;
+}
+
+.join-box h3 {
+  padding: 15px 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.join-box button {
+  margin: 0 20px 20px;
+  padding: 10px 10px;
+  color: white;
+  background-color: #5a5a5a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-box button:hover {
+  background-color: #4a4a4a;
+}
+
+.join-box p {
+  padding: 0 20px 20px;
+  margin: 0;
+  text-align: center;
+  color: #E0E1DD; /* Adjust color as needed */
+}
+
+
+
+.join-feed {
+  width: 100%;
+  max-width: 1640px;
+  margin: 0 auto 20px;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+  gap: 80px;
+  
+  background-color: #191919;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Continue */
+
+.Cbutton-container {
+  border-radius: 8px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: (center)-20px; /* This aligns items to the left */
+  padding-bottom: 40px; /* Add some padding to the container */
+  padding-top: 5px; /* Add some padding to the container */
+  padding-left: auto; /* Add some padding to the container */
+  margin-right: 20px; /* Adjust this value to shift left */
+}
+
+.continue-button {
+  min-width: 800px;
+  padding: 10px 15px;
+  color: white;
+  background-color: #5a5a5a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 20px; /* Add some left margin to the button */
+}
+
+.continue-button:hover {
+  background-color: #4a4a4a;
+}
+
+
+/* Full Post */
+
+.full-post {
+  padding: 20px;
+
+}
+
+.back-button {
+  min-width: 200px;
+  padding: 10px 15px;
+  color: white;
+  background-color: #5a5a5a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #4a4a4a;
+}
+
+.post-content {
+  padding-top: 10px;
+}
+
+/* Comments */
+
+
+.comment {
+  margin: 10px;
+  padding: 10px;
+  max-width: 20%;
+  background-color: #262626;
+  border: 1px solid #E0E1DD;
+  border-radius: 8px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment hr {
+  color: #e0e1dd;
+}
+
+
+
+
+.comment img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.post-actions button{
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #AFAFAC;
+}
+
+.post-actions button:hover {
+  background-color: #7D7D7B;
+}
+.post-actions img {
+  width: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.mkcomment {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.mkcomment form {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.mkcomment textarea {
+  flex-grow: 1;
+  max-width: 40%;
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #AFAFAC;
+  min-height: 80px;
+  resize: vertical;
+}
+
+.mkcomment button {
+  align-self: flex-end;
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #AFAFAC;
+  height: 40px;
+  white-space: nowrap;
+}
+
+.mkcomment button:hover {
+  background-color: #7D7D7B;
+}
