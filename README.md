@@ -27,3 +27,38 @@ A interface gráfica se assemelha a do reddit no entanto a estrutura “social�
 Por exemplo, na comunidade de física I o monitor pode fazer vídeos corrigindo exercícios de provas e listas escolhidas pelos alunos. Por outro lado, o monitor responsável por uma matéria como Introdução a Programação de Computadores pode fazer uma reunião online onde ele faz desafios e depois os corrige com todos.
 
 
+# Implementacao / Progresso Atual
+
+
+No momento a plataforma roda em um servidor de NodeJS e a interface foi criada em React, posts tipo imagem são armazenados no próprio servidor assim como posts tipo texto, no entanto posts tipo vídeo são fornecidos do youtube, necessitando que para postar um vídeo o usuário deve dar upload dele no youtube, isso facilita o problema de possíveis direitos autorais de músicas tocadas no fundo do vídeo e possibilita a realização de Lives direto na plataforma por meio do OBS/youtube  
+
+O algoritmo já gera o grafo de interações, no entanto ele não recomenda os posts do Feed Principal de forma personalizada ao usuário, que seria direcionado a posição do usuário no grafo. 
+
+Funcionalidades que necessárias para um futuro próximo seriam: 
+Terminar o Algoritmo 
+Criar recomendados baseado no Grafo
+Criar Funcionalidade de Deletar posts e Usuários, Removendo também sua influência no grafo
+Melhorar sistema de login( Usar Gmail)
+
+
+-> // Versions //
+
+- USPerdido_Node(Codelab Presentation)
+- USPerdido_React(Basic Structure made in react)
+- USPerdido_NR(Functioning Node React WF)
+- USPerdido_WLGN(First try to make logins)
+- USPerdido_LG(Almost all complete, W login)
+- USPerdido_V1(First Working version)
+- USPerdido_V2(Fist Verion Algoritim, Not Final Text)
+
+
+-> // To make //
+
+- Make text/Populate the interface
+- Fix the components for many devices/phones
+- Algoritim -> Main feed
+- Sort communities
+- Delete User
+- Delete Post
+- Sudo User...(Monitores)
+- AWS / Ship it!!
