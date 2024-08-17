@@ -1,6 +1,4 @@
 # USPerdido
-## ---------------------------------------
-
 
 
 
@@ -12,3 +10,6 @@
 ![Alt text](Info/main_info.png)
 
 ## Este algoritmo, gera um grafo mostrando a conexão dos alunos um aos outros e relativos ao pivô, que estaria no “topo” da comunidade, assim ao final do semestre os alunos que mais ajudaram os colegas por meio de interações seriam apontados para serem os próximos monitores da matéria no ano/semestre seguinte, tendo em vista a premissa que o algoritmo mostraria a didática do aluno ao ensinar o conteúdo por meio das interações recebidas em suas respostas a dúvidas de colegas.
+
+
+![Alt text](Info/inter.png)
