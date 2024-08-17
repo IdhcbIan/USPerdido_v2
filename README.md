@@ -41,7 +41,7 @@ Criar Funcionalidade de Deletar posts e Usuários, Removendo também sua influê
 Melhorar sistema de login( Usar Gmail)
 
 
--> // Versions //
+# -> // Versions //
 
 - USPerdido_Node(Codelab Presentation)
 - USPerdido_React(Basic Structure made in react)
@@ -52,7 +52,7 @@ Melhorar sistema de login( Usar Gmail)
 - USPerdido_V2(Fist Verion Algoritim, Not Final Text)
 
 
--> // To make //
+# -> // To make //
 
 - Make text/Populate the interface
 - Fix the components for many devices/phones
