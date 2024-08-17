@@ -13,3 +13,15 @@
 
 
 ![Alt text](Info/inter.png)
+
+
+# Inteface
+
+
+![Alt text](Info/com.png)
+
+A interface gráfica se assemelha a do reddit no entanto a estrutura “social” dos usuários seria mais parecida com a de um discord de alguma personalidade/influencer, onde a proposta é oferecer liberdade aos pivôs de escolherem como se organizarem e qual tipo de conteúdo postar, visando melhor ajudar os alunos e expor o formato de maior conforto para o monitor. 
+
+Por exemplo, na comunidade de física I o monitor pode fazer vídeos corrigindo exercícios de provas e listas escolhidas pelos alunos. Por outro lado, o monitor responsável por uma matéria como Introdução a Programação de Computadores pode fazer uma reunião online onde ele faz desafios e depois os corrige com todos.
+
+
