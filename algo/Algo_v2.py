@@ -8,10 +8,10 @@
 ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
 ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
 
-#----------------// V1 //--------------------------
+#----------------// V2 //--------------------------
 
 
-By Ian Bezzerra - July/2024
+By Ian Bezzerra - Aug/2024
 
 - Version one of the interaction based Recomendation
 algoritim for USPerdido.
@@ -77,7 +77,7 @@ with open("../db/Posts/posts.json", "r") as UserData:
 
 C = D["C1"]
 
-print(C)
+#print(C)
 
 I_Likes = []
 
@@ -89,7 +89,7 @@ for post in C:
             I_Likes.append((post.Username, like))
 
 
-print(I_Likes)
+#print(I_Likes)
 
 
 #--  Counting Clicks  -------------------
@@ -102,7 +102,7 @@ for post in C:
         if (post.Username != click):
             I_Clicks.append((post.Username, click))
 
-print(I_Clicks)
+#print(I_Clicks)
 
 #--  Counting Comments  -------------------
 
@@ -123,10 +123,10 @@ for post in C:
                 I_Comebacks[post.Username] = 1
 
 
-print(I_Likes)
-print(I_Clicks)
-print(I_Comments)
-print(I_Comebacks)
+#print(I_Likes)
+#print(I_Clicks)
+#print(I_Comments)
+#print(I_Comebacks)
 
 
 """
@@ -206,6 +206,66 @@ plt.title("User Interaction Network (Weighted Score)", fontsize=16)
 plt.xlabel("Users")
 plt.ylabel("Total Weighted Score")
 plt.tight_layout()
-plt.show()
+#plt.show()
+
+# ---------------------------------------
+def find_closest_user(G, user):
+    if user not in G:
+        return None
+    
+    max_weight = 0
+    closest_user = None
+    
+    for neighbor in G[user]:
+        weight = G[user][neighbor]['weight']
+        if weight > max_weight:
+            max_weight = weight
+            closest_user = neighbor
+    
+    return closest_user
+
+# ---------------------------------------
 
 
+def rank_user_closeness(G):
+    closeness_scores = {}
+    ranked_closeness = {}
+
+    # Calculate closeness scores
+    for user1 in G.nodes():
+        for user2 in G.nodes():
+            if user1 != user2:
+                score = 0
+                if G.has_edge(user1, user2):
+                    score += G[user1][user2]['weight']
+                if G.has_edge(user2, user1):
+                    score += G[user2][user1]['weight']
+                if score > 0:
+                    if user1 not in closeness_scores:
+                        closeness_scores[user1] = {}
+                    closeness_scores[user1][user2] = score
+
+    # Rank users based on closeness scores
+    for user, scores in closeness_scores.items():
+        ranked_closeness[user] = sorted(scores, key=scores.get, reverse=True)
+
+    return ranked_closeness
+
+# ---------------------------------------
+Main = rank_user_closeness(G)
+for i in Main.items():
+    print(f"{i}")
+    print("--------------")
+
+"""
+Notes to Future browski
+
+- This last functon gave me the ranked bets connedted users-> users
+so just make the top(alltime, month, day)
+- get the posts ranked from the day feed, and complete with the
+best month feed)
+
+
+
+
+"""
